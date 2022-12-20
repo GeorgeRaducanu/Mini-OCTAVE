@@ -1,0 +1,27 @@
+#Copyright 2022-2023 Raducanu George-Cristian 321CA
+----------------------------------------------------------------------------------------------
+Tema2 PCLP1
+----------------------------------------------------------------------------------------------
+My Octave
+----------------------------------------------------------------------------------------------
+    Toate functionalitatile sunt implementate pe baza unui vector de matrice
+***a, acesta este dimensionat si redimensionat in concordanta cu necestitatile
+problemei. De asemenea, dimensiunile fiecarei matrice sunt tinute in 2 vectori,
+alocati dinamic *n si *m ce tin numarul de linii respectiv coloane corespunzatoare
+unei matrice.
+    Pentru o mai buna modularizare, fiecare comanda are propria functie. Astfel, fiecare
+bucata de cod este usor de testat individual. Singura comanda ce se afla direct in main,
+deoarece nu am considerat neaparat necesar sa o modularizez este comanda "L" mai precis
+adaugarea unei matrice in  vectorul de matrice.
+    Functia "R_command" de ridicare a unei matrice la putere in timp logaritmic foloseste
+varianta iterativa intrucat este mai usor de gestionat alocarea dinamica. Toti vectorii si
+matricele utilizate in intreg programul sunt alocati dinamic, fara a avea vreun buffer static
+nicaieri.
+    Comanda "C_command" de redimensionare conform cerintei este implementata cu ajutorul unei
+matrice auxiliare ce apoi este eliberata din memorie. Am ales aceasta abordare  si nu alta,
+intrucat este mai simpla si mai usor de inteles fata de o alta metoda care utiliza poate mai
+putina memorie dar era mai incurcata.
+    Celelalte comenzi fac in mod direct ceea ce este explicitat in enuntul temei, fara a alege
+vreo abordare mai complicata, ci doar pe cea directa.
+-----------------------------------------------------------------------------------------------
+Long live Gigel!
